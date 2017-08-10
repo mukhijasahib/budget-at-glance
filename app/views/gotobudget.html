@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sahib</title>
+		<link rel="stylesheet" type="text/css" href="../min/dc.js" media="screen" /> 
+	
+	</head>
+
+	<body ng-app="goToBudgetApp" ng-controller="goToBudgetCtrl">
+		<bars-chart chart-data="myData"  ></bars-chart>
+      
+		<div id="category-ring-chart"></div>
+		<div id="month-expenditure-chart"></div>
+		<div id="chart-line-spentinaday"></div>
+		<div style='clear:both;'>
+			<table id="transaction-table">
+				<thead>
+					<tr class="header">
+						<th>Date</th>
+						<th>Category Group</th>
+						<th>Category</th>
+						<th>Spent</th>
+					</tr>
+				</thead>
+			</table>
+		</div> 
+		<script type="text/javascript" src="../min/cross.js"></script>
+		<script type="text/javascript" src="../min/dc.js"></script>
+		
+		
+
+	</body>
+
+</html>
